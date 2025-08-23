@@ -121,7 +121,7 @@ To make the notebook fully functional for a knowledge graph with RAG, consider t
   ```python
   graph.query("MATCH (n) RETURN n LIMIT 1")
   ```
-- **API Key Errors**: Verify your Groq API key is valid and has sufficient quota. Check [x.ai/grok](https://x.ai/grok) for details.
+- **API Key Errors**: Verify your Groq API key is valid and has sufficient quota. 
 - **Wikipedia API Limits**: If Wikipedia requests fail, reduce the query load or add delays between requests.
 
 ## License
